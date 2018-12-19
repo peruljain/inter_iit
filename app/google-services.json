@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "355024055678",
+    "firebase_url": "https://interiit-5477e.firebaseio.com",
+    "project_id": "interiit-5477e",
+    "storage_bucket": "interiit-5477e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355024055678:android:eb005138323dae06",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.inter_iit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355024055678-4ki9h28gob2jho1fpf6nfclnj44i40sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.inter_iit",
+            "certificate_hash": "831cd6e237ec8fa6c4e95a1b33f13dc265d91490"
+          }
+        },
+        {
+          "client_id": "355024055678-q9ia08toj5pajt2jh5od64iurguvhfp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflL1IEFeLmESq2457JFzs5baUSrUZlOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355024055678-q9ia08toj5pajt2jh5od64iurguvhfp8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

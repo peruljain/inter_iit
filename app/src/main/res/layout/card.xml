@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/carView"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back2"
+        >
+
+
+
+
+        <ImageView
+            android:id="@+id/imgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/got"/>
+
+        <TextView
+            android:id="@+id/info1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imgl"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="Games of Thrones"
+            android:textColor="#eeeeee"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/info2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/info1"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="Games of Thrones2"
+            android:textColor="#eeeeee"
+            android:textSize="30dp" />
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
